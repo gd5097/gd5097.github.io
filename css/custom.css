@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'baemin';
+    src: url('../fonts/baemin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'baemin-sub';
+    src: url('../fonts/baemin-sub.ttf') format('truetype');
+}
+
 .logo-text {
     color: white;
     font-size: 37px;
@@ -5,3 +15,31 @@
     text-align: center;
     display: inline-block;
 }
+
+#poor-developer-main-text{
+    color: white;
+    font-family: 'baemin';
+}
+#poor-developer-main-sub-text{
+    color: orange;    
+    font-family: 'baemin';
+}
+
+#poor-developer-sub-text p{
+    color: white;
+    font-family: 'baemin-sub';
+    font-size: 3rem;
+    
+    padding: 10px;
+}
+#heart{
+    color: pink;
+    font-family: 'baemin-sub';
+    font-size: 3rem;        
+}
+#jab{
+    color: greenyellow;
+    font-family: 'baemin-sub';
+    font-size: 3rem;        
+}
+
