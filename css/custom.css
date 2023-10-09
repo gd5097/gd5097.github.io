@@ -8,6 +8,11 @@
     src: url('../fonts/baemin-sub.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'nanum';
+    src: url('../fonts/nanum.ttf') format('truetype');
+}
+
 .logo-text {
     color: white;
     font-size: 37px;
@@ -81,9 +86,16 @@
     margin-bottom: 0px;
 }
 
+#reference-info {
+    margin-top: 50px;
+}
+
 .horizontal-line {
     border-top: 2px solid #c8c8c8; /* 수평선 스타일 및 색상 설정 */
     width: 70%; /* 수평선의 너비를 요소의 100%로 설정 (가로 전체) */
     margin-bottom: 30px; /* 위아래 여백 설정 */
   }
   
+  .nanum {
+    font-family: 'nanum';
+  }
