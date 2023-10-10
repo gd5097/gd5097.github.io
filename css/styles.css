@@ -393,7 +393,9 @@ a:hover {
     display: block;
 }
 .screenshots .screen img {
-    width: 100%;
+    width: 110%;
+	height: 450px;
+	object-fit: cover;
 	border-radius: 4px;
 	border: solid 3px #dadada;
 	-webkit-transition: all .8s ease;
